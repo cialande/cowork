@@ -1,18 +1,84 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <script src='js/core.js'>
-        </script>
-    </head>
-        <body>
-            <h1>MEMES</h1>
-            <h2> ARE </h2>
-            <p>DANK</p>
-            <p>Do you wanna see some A-E-S-T-E-T-H-I-C memes</p>
-            <button type='button' onclick='myFunction()'>Click Here </button>
-            <div id='welcometext'> C`mon bae do you want me to show you something</div>
-        </body>
-    </html>
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Landing Page Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
+    <!--
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src='js/core.js'></script>
+    -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-dark" style="background-color: black;">
+            <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navTog"></button>
+            <div class="collapse navbar-toggleable-sm" id="navTog">
+                <span class="navbar-brand">Logo</span>
+                <ul class="nav navbar-nav float-md-right">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Index</a></li>
+                    <li class="nav-item"><a href="show.html" class="nav-link">Showcase</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+      <!-- existen 3 tipos de cambio de texto elastico, fluido y centrado -->  
+        <div class="container" >
+            <div class="row">
+                <div class="col-sm-2 col-md-8 col-lg-3">
+                   <h1> Left Section</h1> 
+                    <img src="http://lorempixel.com/400/200/" alt="imagen aleatoria" class="rounded img-fluid float-xs-left"/>
+                        <p>Tiramisu dessert chupa chups cotton candy brownie icing donut croissant. Chocolate cake liquorice jelly beans toffee muffin sesame snaps donut. Sesame snaps muffin gingerbread pastry bonbon cotton candy.  </p>
+                    <h1>Right Section </h1> 
+                    <img src="http://lorempixel.com/400/200/" alt="imagen aleatoria" class="rounded img-fluid"/>
+                    <p>Tiramisu dessert chupa chups cotton candy brownie icing donut croissant. Chocolate cake liquorice jelly beans toffee muffin sesame snaps donut. Sesame snaps muffin gingerbread pastry bonbon cotton candy.  </p>
+                </div>
+                <div class="col-sm-2 col-md-4 col-lg-9">
+                   <h1>Right Section </h1> 
+                    <img src="http://lorempixel.com/1200/500/" alt="imagen aleatoria" class="img-fluid"/>
+                    <p>Tiramisu dessert chupa chups cotton candy brownie icing donut croissant. Chocolate cake liquorice jelly beans toffee muffin sesame snaps donut. Sesame snaps muffin gingerbread pastry bonbon cotton candy. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="carImages" class="carousel slider" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#carImages" data-slide-to="0" class="active"></li>
+                        <li data-target="#carImages" data-slide-to="1"></li>
+                        <li data-target="#carImages" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://lorempixel.com/1200/500" alt="Derph">
+                         </div>
+
+                        <div class="carousel-item">
+                             <img src="http://lorempixel.com/1199/500" alt="Dank">
+                         </div>
+
+                        <div class="carousel-item">
+                            <img src="http://lorempixel.com/1201/500" alt="lel">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+</body>
+
+</html>
